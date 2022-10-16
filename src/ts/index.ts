@@ -5,13 +5,10 @@ import ItemText from "./components/ItemText/ItemText.js";
 
 const root = document.querySelector(".root");
 
-const header = new Header(root as HTMLElement, "main-header", "header");
+const header = new Header(root as HTMLElement);
 header.render();
 
-const header2 = new Component(root as HTMLElement, "main-header2", "header");
-header2.render();
-
-const mainTitle = document.querySelector(".main-header2");
+const mainTitle = document.querySelector(".main-header");
 const headerTitle = new ItemText(
   mainTitle as HTMLElement,
   "main-title",
@@ -20,5 +17,11 @@ const headerTitle = new ItemText(
 );
 headerTitle.render();
 
-const headerBox = new HeaderBox(root as HTMLElement);
-headerBox.render();
+const introTitle = document.querySelector(".main-header");
+const secondaryTitle = new ItemText(
+  introTitle as HTMLElement,
+  "span-title",
+  "span",
+  "Gotta Catch 'Em All"
+);
+secondaryTitle.render();
