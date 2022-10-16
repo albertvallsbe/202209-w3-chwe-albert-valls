@@ -1,6 +1,4 @@
-import Component from "./components/Component/Component.js";
 import Header from "./components/Header/Header.js";
-import HeaderBox from "./components/HeaderBox/HeaderBox.js";
 import ItemText from "./components/ItemText/ItemText.js";
 
 const root = document.querySelector(".root");
