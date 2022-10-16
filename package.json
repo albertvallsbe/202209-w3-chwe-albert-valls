@@ -10,7 +10,7 @@
     "test": "jest",
     "test:dev": "npm test -- --watchAll",
     "build-css": "sass src/scss/style.scss public/css/style.css",
-    "build-css:dev": "npm build-css -- --watch"
+    "build-css:dev": "npm run build-css -- --watch"
   },
   "keywords": [],
   "author": "",
