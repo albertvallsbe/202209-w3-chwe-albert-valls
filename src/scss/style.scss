@@ -1,3 +1,5 @@
-* {
-  background-color: white;
-}
+@use "./global/reset";
+@use "./global/typography";
+@use "./global/sizes";
+@use "./global/_colors";
+@use "./components/header";
