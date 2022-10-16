@@ -1,0 +1,18 @@
+@use "../global/typography";
+@use "../global/sizes";
+@use "../global/colors";
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.main-body {
+  font-weight: normal;
+  font-size: 1.6rem;
+}
+h2 {
+  padding: sizes.$main-h2-padding-horizontal sizes.$main-h2-padding-vertical;
+}
