@@ -3,11 +3,10 @@
 @use "../global/colors";
 
 header {
-  font-family: typography.$font-family;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: colors.$main-background;
 }
 
 .main-header {
@@ -15,13 +14,6 @@ header {
   font-size: 3rem;
 }
 
-span {
-  align-items: center;
-  justify-items: center;
-  align-self: center;
-  justify-content: center;
-  justify-self: center;
-}
 .span-title {
   font-style: oblique;
   font-size: 1rem;
