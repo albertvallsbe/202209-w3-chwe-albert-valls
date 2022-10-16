@@ -1,7 +1,12 @@
+@use "./colors";
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+html {
+  background-color: colors.$main-background;
 }
