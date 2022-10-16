@@ -6,7 +6,7 @@ describe("Given a Header element", () => {
       const screen = document.createElement("div");
       const className = ".main-header";
 
-      const mainHeader = new Header(screen, "main-header", "header");
+      const mainHeader = new Header(screen);
       mainHeader.render();
       const header = screen.querySelector(className);
 
