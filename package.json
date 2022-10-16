@@ -4,11 +4,13 @@
   "description": "![Logo Pokémon](pokemon-logo.svg)",
   "main": "index.js",
   "scripts": {
+    "prepare": "husky install",
     "build-js": "tsc",
     "build-js:dev": "npm run build-js -- -w",
     "test": "jest",
     "test:dev": "npm test -- --watchAll",
-    "prepare": "husky install"
+    "build-css": "sass src/scss/style.scss public/css/style.css",
+    "build-css:dev": "npm build-css -- --watch"
   },
   "keywords": [],
   "author": "",
