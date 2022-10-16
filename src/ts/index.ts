@@ -1,6 +1,7 @@
 import Header from "./components/Header/Header.js";
 import Main from "./components/Main/Main.js";
 import ItemText from "./components/ItemText/ItemText.js";
+import ApiList from "./components/ApiList/ApiList.js";
 
 const root = document.querySelector(".root");
 
@@ -36,3 +37,7 @@ const mainBodyTitle = new ItemText(
   "Pokédex: "
 );
 mainBodyTitle.render();
+
+const apiBody = document.querySelector(".main-body");
+const apiListBody = new ApiList(apiBody as HTMLElement, 0);
+apiListBody.render();
