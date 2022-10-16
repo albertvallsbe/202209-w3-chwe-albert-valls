@@ -4,7 +4,7 @@ import HeaderBox from "./components/HeaderBox/HeaderBox.js";
 
 const root = document.querySelector(".root");
 
-const header = new Header(root as HTMLElement);
+const header = new Header(root as HTMLElement, "main-header", "header");
 header.render();
 
 const header2 = new Component(root as HTMLElement, "main-header2", "header");
